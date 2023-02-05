@@ -1,0 +1,202 @@
+.LAoutsideFront{
+  height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  z-index: 10;
+  position: absolute;
+}
+
+.LAmainBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 1240px;
+  width: 100%;
+  height: 600px;
+}
+
+.LATableFlag{
+  width: 80px;
+  outline: 2px solid black;
+  margin-top: 0.4rem;
+}
+
+.LATopMiddle{
+  width: 100%;
+  height: 10%;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 2px solid black;
+  border-Top: 2px solid black;
+}
+
+.LATopMiddleDiv{
+  width: 33.33%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.LATopBox{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.LATopBoxArrow{
+  font-size: 30px;
+  margin-top: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
+.LArightbox{
+  height: 600px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+  border-radius: 15px;
+  /* display: none; */
+}
+.LAbottomBox{
+  width: 400px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 10;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+  .LAbottomBox{
+    border-radius: 0px;
+  }
+  .LArightbox{
+    width: 100%;
+    border-radius: 0px;
+  }
+
+
+.LArightboxWin{
+  border-radius: 0px;
+}
+.LAbottomBoxWin{
+  border-radius: 0px;
+}
+.LABoxWinTop{
+  border-radius: 0px;
+}
+.LABoxWinCanvas{
+  border-radius: 0px;
+}
+
+.LArightboxLose{
+border-radius: 0px;
+}
+.LAbottomBoxLose{
+border-radius: 0px;
+}
+
+}
+
+
+
+
+.LATopMiddleFirst{
+    width: 100%;
+    height: 36%;
+    /* width: 200px; */
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border-bottom: 2px solid black; */
+    border-Top: 2px solid black;
+  }
+
+  .LATopMiddlePhoto{
+    width: 33.33%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .LATableInsideBody{
+    width: 100%;
+  
+  }
+
+  .LATable{
+    width: 100%;
+    height: 80%;
+    overflow: scroll;
+    display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  }
+  
+  .LATableLeft::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  
+  .LATableInsideLeft{
+    width: 50%;
+    border-bottom-left-radius: 15px;
+    /* background-color: black; */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .LAtableLeft-cell {
+    width: 100%;
+    display: table-cell;
+    text-align: center;
+    width: 33.33%;
+  }
+
+  .LATableRight::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+  .LATable::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  
+  .LATableInsideRight{
+    width: 50%;
+    border-bottom-right-radius: 15px;
+    /* border-right: 1px solid black; */
+  }
+  
+  .LAtableRight-cell {
+    width: 100%;
+    display: table-cell;
+    text-align: center;
+    width: 33.33%;
+    /* border-radius: 15px; */
+  }
+  .LAlight-grey{
+    /* background-color: rgb(214, 205, 205);
+    border-radius: 15px; */
+    height: 32px;
+  }
+  .LAlight-white{
+    /* background-color: rgb(236, 147, 30); */
+    height: 30px;
+    /* border-left: 3px solid black */
+  }

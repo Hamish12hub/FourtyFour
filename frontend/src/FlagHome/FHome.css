@@ -1,0 +1,87 @@
+.FHoutside{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.FHBottom{
+    /* background-color: rgb(168, 25, 132); */
+    width: 95%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.FHBottomLeft{
+    /* background-color: rgb(37, 202, 40); */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.FHBottomRight{
+    border: 2px solid black;
+    width: 60%;
+    height: 80%;
+    /* background: linear-gradient(to right, rgb(77, 255, 0) 100%, rgb(255, 255, 255) 0%); */
+}
+.FHBottomText{
+    font-size: calc(9px + 0.390625vw);
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.FHBottomRightInside{
+    height: 100%;
+}
+
+.FHTop{
+    width: 95%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    /* justify-content: space-evenly; */
+}
+.FHTopLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+}
+
+.FHTopRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: bisque; */
+}
+
+.FHTopTwoButton{
+    width: 60%;
+    max-width: 140px;
+    height: 60%;
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px black;
+    border-radius: 0.4rem;
+    font-size: calc(20px + 0.090625vw);
+    cursor: pointer;
+}
+
+.FHList{
+    font-size: calc(9px + 0.390625vw);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.FHTopHeading{
+    font-size: calc(19px + 0.390625vw);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

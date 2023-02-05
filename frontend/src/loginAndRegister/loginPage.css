@@ -1,0 +1,75 @@
+.LPoutside{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.LPemail{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.LPpassword{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.LPbutton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.LPgetTheApp{
+    border-bottom: 1px solid black;
+    width: 90%;
+    text-align: center;
+}
+
+.LPTheApp{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.LPplaystoreButton{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+}
+.LPappstoreButton{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+}
+.LPplaystoreButtonPhoto{
+    width: 150px;
+    height: 50px;
+}
+.LPapplestoreButtonPhoto{
+    width: 150px;
+    height: 50px;
+}
+.LPwarningRed{
+    color: red;
+}
+.LPwarningWhite{
+    display: none;
+}
+
+.LPlogo{
+    width: 90%;
+    height: 110px;
+}
+
+.LPlogoPhoto{
+    width: 100%;
+     height: 100%;
+     object-fit: cover;
+}

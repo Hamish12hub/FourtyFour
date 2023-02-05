@@ -1,0 +1,101 @@
+.RPoutside{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* .RPcontainer{
+    background-color: blue;
+    /* margin: auto; */
+    /* width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around; */
+/* .RPinputName{
+    background-color: aqua;
+    border: 2px solid black;
+    /* width: 100%; */
+    /* margin-top: 2rem; */
+ */
+/* .RPinputEmail{
+    background-color: aqua;
+    border: 2px solid black;
+    /* margin-top: 2rem; */
+ */
+.RPname{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.RPemail{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.RPpassword{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.RPsecondpassword{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.RPbutton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.RPgetTheApp{
+    border-bottom: 1px solid black;
+    width: 90%;
+    text-align: center;
+}
+
+.RPTheApp{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.RPplaystoreButton{
+    width: 150px;
+    height: 50px;
+}
+.RPappstoreButton{
+    width: 150px;
+    height: 50px;
+}
+
+.RPplaystoreButtonPhoto{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+}
+.RPappstoreButtonPhoto{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+}
+
+
+.RPnameRed{
+    color: red;
+}
+.RPnameWhite{
+    /* color: White; */
+    display: none;
+}

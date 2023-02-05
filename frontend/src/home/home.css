@@ -1,0 +1,134 @@
+.HomeBackground{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.HomeBackground::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.HomeBackgroundTwo{
+    max-width: 1240px;
+    width: 100%;
+    height: 100vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.HomeLanguagesExplain{
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+    max-width: 100%;
+    margin-top: 4rem;
+}
+.HomeLanguages{
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 1240px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+.HomeWorldCAC{
+    width: 100%;
+    height: 280px;
+    margin-top: 1rem;
+    max-width: 1240px;
+}
+.HomeWorldFlag{
+    width: 100%;
+    height: 300px;
+    margin-top: 1rem;
+    max-width: 1240px;
+    margin-bottom: 100px;
+}
+
+/* .HomeThree{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(225, 57, 119);
+    margin-top: 1rem;
+    max-width: 1240px;
+} */
+#HomeOutside1{
+    display: block;
+}
+#HomeOutside2{
+    display: block;
+}
+#HomeOutside3{
+    display: none;
+}
+#HomeOutside4{
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .HomeLanguages{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+.HomeTopBox{
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid black;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.HomeTopBoxInsideTop{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+}
+.HomeTopBoxInsideBottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.HomeTopBoxThreeButton{
+    background: none;
+    cursor: pointer;
+}
+
+.HomelogoPhoto{
+     height: 2.5rem; 
+     object-fit: cover;
+}
+
+.Homeinside{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    color: red;
+}
+
+@media only screen and (max-width: 440px) {
+    .HomeBackgroundTwo{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .HomeBackgroundTwo{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}

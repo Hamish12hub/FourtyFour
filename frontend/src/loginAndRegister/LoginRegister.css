@@ -1,0 +1,152 @@
+
+  #LRvideo{
+    width: 100%;
+     height: 100%;
+     object-fit: cover;
+  }
+  .LRoutside{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .LRoutsideBack{
+    height: 99%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+  }
+  .LRoutsideFront{
+    height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    z-index: 10;
+    position: absolute;
+  }
+  .LRmainBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 1240px;
+    width: 100%;
+    height: 600px;
+  }
+  
+  .LRleftbox{
+    height: 600px;
+    width: 400px;
+    background-color: black;
+  }
+
+  .LRrightbox{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+  }
+
+
+.LRtopBox{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.LRbottomBox{
+    width: 100%;
+    height: 520px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.LRbottomBoxLogin{
+    width: 400px;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 10;
+    border-radius: 0px 0px 15px 15px;
+}
+.LRbottomBoxRegister{
+    width: 400px;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.LRloginButton{
+    width: 200px;
+    height: 80px;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    background: none;
+	font: inherit;
+	cursor: pointer;
+    border-radius: 15px 0px 0px 0px;
+	
+}
+.LRregisterButton{
+    width: 200px; 
+    height: 80px;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    background: none;
+	font: inherit;
+	cursor: pointer;
+  background-color: grey;
+  border-radius: 0px 15px 0px 0px;
+}
+
+.LRiphonePhoto{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.LRbackgroundphoto{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .LRleftbox{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .LRregisterButton{
+    border-radius: 0px;
+  }
+  .LRloginButton{
+    border-radius: 0px !important;
+  }
+  .LRtopBox{
+    border-radius: 0px 0px 0px 0px;
+  }
+  .LRbottomBox{
+    border-radius: 0px 0px 0px 0px;
+  }
+  .LRbottomBoxLogin{
+    border-radius: 0px;
+  }
+  .LRbottomBoxRegister{
+    border-radius: 0px;
+  }
+  .LRrightbox{
+    box-shadow: none;
+    width: 100%;
+  }
+  .LRtopLeft{
+    border-radius: 0px 0px 0px 0px;
+    background-color: white;
+  }
+}

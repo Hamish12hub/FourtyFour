@@ -1,0 +1,275 @@
+.FGoutsideFront{
+    height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    z-index: 10;
+    position: absolute;
+  }
+
+  .FGmainBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 1240px;
+    width: 100%;
+    height: 600px;
+  }
+
+  .FGTitleFlags{
+    /* background-color: aqua; */
+    width: 90%;
+    height: 60%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .FGFlagButton{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .FGFlagImage{
+    width: 100%;
+    height: 100%;
+    outline: 2px solid black;
+  }
+
+  .FGFlagOne{
+    width: 97%;
+    height: 95%;
+    margin: auto;
+    /* background-color: rgb(140, 255, 0); */
+    grid-column: 1;
+  grid-row: 1;
+  }
+  .FGFlagTwo{
+    width: 97%;
+    height: 95%;
+    margin: auto;
+    /* background-color: rgb(255, 0, 60); */
+    grid-column: 2;
+  grid-row: 1;
+  }
+  .FGFlagThree{
+    width: 97%;
+    height: 95%;
+    margin: auto;
+    /* background-color: rgb(171, 193, 43); */
+    grid-column: 1;
+  grid-row: 2;
+  }
+  .FGFlagFour{
+    width: 97%;
+    height: 95%;
+    margin: auto;
+    /* background-color: rgb(187, 87, 112); */
+    grid-column: 2;
+  grid-row: 2;
+  }
+  .FGFlagFive{
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    /* background-color: rgb(0, 255, 55); */
+    grid-column: 1;
+  grid-row: 3;
+  }
+  .FGFlagSix{
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    /* background-color: rgb(120, 73, 196); */
+    grid-column: 2;
+  grid-row: 3;
+  }
+    
+
+  .FGrightbox{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    display: none;
+  }
+  .FGbottomBox{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 10;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+
+
+  .FGrightboxWin{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(15, 8, 8);
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    /* display: none; */
+  }
+  .FGbottomBoxWin{
+    color: white;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(17, 16, 16);
+    position: absolute;
+    z-index: 10;
+    border-radius: 15px;
+}
+.FGBoxWinTop{
+  color: white;
+  font-size: 50px;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    z-index: 10;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index: 10;
+}
+.FGBoxWinCanvas{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(1, 0, 0);
+    position: absolute;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.FGBoxWinButton{
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+}
+
+
+.FGrightboxLose{
+  height: 600px;
+  width: 400px;
+  background-color: rgb(222, 21, 11);
+  box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+  border-radius: 15px;
+  display: none;
+}
+.FGbottomBoxLose{
+  width: 400px;
+  height: 600px;
+  background-color: rgb(202, 44, 33);
+  position: absolute;
+  z-index: 10;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+
+
+  @media only screen and (max-width: 400px) {
+    .FGbottomBox{
+      border-radius: 0px;
+    }
+    .FGrightbox{
+      width: 100%;
+      border-radius: 0px;
+    }
+
+
+  .FGrightboxWin{
+    border-radius: 0px;
+  }
+  .FGbottomBoxWin{
+    border-radius: 0px;
+}
+.FGBoxWinTop{
+    border-radius: 0px;
+}
+.FGBoxWinCanvas{
+    border-radius: 0px;
+}
+
+.FGrightboxLose{
+  border-radius: 0px;
+}
+.FGbottomBoxLose{
+  border-radius: 0px;
+}
+
+  }
+
+  .FGIntroduction{
+    font-size: 10px;
+    text-decoration: underline;
+    display: inline-block;
+  }
+
+  .FGTitle{
+    font-size: 30px;
+  }
+
+  .FGTitleCountry{
+    font-size: 36px;
+  }
+
+  .FGTitleInfo{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 12px;
+  }
+
+  .FGTitleFlag{
+    width: 85%;
+    height: 30%;
+  }
+
+  .FGTitleScore {
+    font-size: 30px;
+  }
+
+  .FGTitleInput{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  #FGInputBox {
+    width: 55%;
+    height: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid rgb(21, 18, 18);
+  }
+
+  #FGInputButton{
+    width: 15%;
+    height: 44px;
+    background-color: white;
+    border: 2px solid rgb(21, 18, 18);
+    cursor: pointer;
+  }
+
+  .FGPhoto{
+    width: 100%;
+    height: 100%;
+  }

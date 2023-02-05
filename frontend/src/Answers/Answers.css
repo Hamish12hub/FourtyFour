@@ -1,0 +1,139 @@
+.CACAoutsideFront{
+    height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    z-index: 10;
+    position: absolute;
+  }
+
+  .CACAmainBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 1240px;
+    width: 100%;
+    height: 600px;
+  }
+
+  .CACATableFlag{
+    width: 80px;
+    outline: 2px solid black;
+    margin-top: 0.4rem;
+  }
+
+  .CACATopMiddle{
+    width: 100%;
+    height: 10%;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+    border-Top: 2px solid black;
+  }
+
+  .CACATopMiddleDiv{
+    width: 33.33%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .CACATopBox{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .CACATopBoxArrow{
+    font-size: 30px;
+    margin-top: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  .CACATable{
+    width: 100%;
+    height: 80%;
+    overflow: scroll;
+    /* cursor: ns-resize; */
+  }
+
+  .CACATable::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+  .CACATableInside{
+    width: 100%;
+  }
+
+  .CACATableInsideBody{
+    width: 100%;
+
+  } 
+
+  .CACAtable-cell {
+    width: 100%;
+    display: table-cell;
+    text-align: center;
+    width: 33.33%;
+  }
+
+  .CACArightbox{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    /* display: none; */
+  }
+  .CACAbottomBox{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 10;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+
+  @media only screen and (max-width: 400px) {
+    .CACAbottomBox{
+      border-radius: 0px;
+    }
+    .CACArightbox{
+      width: 100%;
+      border-radius: 0px;
+    }
+
+
+  .CACArightboxWin{
+    border-radius: 0px;
+  }
+  .CACAbottomBoxWin{
+    border-radius: 0px;
+}
+.CACABoxWinTop{
+    border-radius: 0px;
+}
+.CACABoxWinCanvas{
+    border-radius: 0px;
+}
+
+.CACArightboxLose{
+  border-radius: 0px;
+}
+.CACAbottomBoxLose{
+  border-radius: 0px;
+}
+
+  }

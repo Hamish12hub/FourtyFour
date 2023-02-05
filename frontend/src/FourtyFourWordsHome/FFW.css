@@ -1,0 +1,175 @@
+.FFWOutside{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.FFWOutsideFrance{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* #FFWOutside{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
+.FFWTop{
+    width: 95%;
+    height: 120px;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.FFWTopOne{
+    /* background-color: rgb(90, 112, 112); */
+    height: 100%;
+    margin-top: -0.5rem;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.FFWTopText{
+    font-size: 1.5rem;
+}
+.FFWPhoto{
+    height: 60%;
+    width: 60%;
+    max-width: 130px;
+    min-width: 90px;
+}
+.FFWTopTwo{
+    /* background-color: rgb(127, 37, 127); */
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FFWTopFour{
+    width: 25%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 1rem; */
+    margin-left: 0.5rem;
+
+}
+.FFWTopFourButton{
+    width: 100%;
+    max-width: 140px;
+    height: 60%;
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px black;
+    border-radius: 0.4rem;
+    font-size: calc(20px + 0.090625vw);
+    cursor: pointer;
+}
+.FFWTopTwoButton{
+    width: 100%;
+    max-width: 140px;
+    height: 60%;
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px black;
+    border-radius: 0.4rem;
+    font-size: calc(27px + 0.090625vw);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.FFWTopTwoButton:hover {
+    background-color: #625150;
+}
+.FFWTopFourButton:hover {
+    background-color: #625150;
+}
+
+.FFWTopThreeOutside{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.FFWTopThree{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.FFWTopThreeButton{
+    width: 50%;
+    height: 50%;
+    background: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+.FFWBottom{
+    /* background-color: rgb(168, 25, 132); */
+    width: 95%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.FFWBottomLeft{
+    /* background-color: rgb(37, 202, 40); */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.FFWBottomRight{
+    border: 2px solid black;
+    width: 60%;
+    height: 80%;
+    /* background: linear-gradient(to right, rgb(77, 255, 0) 100%, rgb(255, 255, 255) 0%); */
+}
+.FFWBottomText{
+    font-size: calc(9px + 0.390625vw);
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.FFWBottomRightInside{
+    height: 100%;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .FFWBottomText{
+        font-size: calc(8px + 0.590625vw);
+    }
+    .FFWTopFourButton{
+        font-size: calc(16px + 0.090625vw);
+    }
+    .FFWTopTwoButton{
+        font-size: calc(20px + 0.090625vw);
+    }
+}

@@ -1,0 +1,223 @@
+.AALoutsideFront{
+    height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    z-index: 10;
+    position: absolute;
+  }
+
+  .AALmainBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 1240px;
+    width: 100%;
+    height: 600px;
+  }
+
+
+
+
+  .AALrightbox{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    /* display: none; */
+  }
+  .AALbottomBox{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 10;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+
+
+  .AALrightboxWin{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(15, 8, 8);
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    display: none;
+  }
+  .AALbottomBoxWin{
+    color: white;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(17, 16, 16);
+    position: absolute;
+    z-index: 10;
+    border-radius: 15px;
+}
+.AALBoxWinTop{
+  color: white;
+  font-size: 50px;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    z-index: 10;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index: 10;
+}
+.AALBoxWinCanvas{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(1, 0, 0);
+    position: absolute;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.AALBoxWinButton{
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+}
+
+
+.AALrightboxLose{
+  height: 600px;
+  width: 400px;
+  background-color: rgb(222, 21, 11);
+  box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+  border-radius: 15px;
+  display: none;
+}
+.AALbottomBoxLose{
+  width: 400px;
+  height: 600px;
+  background-color: rgb(202, 44, 33);
+  position: absolute;
+  z-index: 10;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+
+
+  @media only screen and (max-width: 400px) {
+    .AALbottomBox{
+      border-radius: 0px;
+    }
+    .AALrightbox{
+      width: 100%;
+      border-radius: 0px;
+    }
+
+
+  .AALrightboxWin{
+    border-radius: 0px;
+  }
+  .AALbottomBoxWin{
+    border-radius: 0px;
+}
+.AALBoxWinTop{
+    border-radius: 0px;
+}
+.AALBoxWinCanvas{
+    border-radius: 0px;
+}
+
+.AALrightboxLose{
+  border-radius: 0px;
+}
+.AALbottomBoxLose{
+  border-radius: 0px;
+}
+
+  }
+
+  .AALIntroduction{
+    font-size: 10px;
+    text-decoration: underline;
+    display: inline-block;
+  }
+
+  .AALTitle{
+    font-size: 30px;
+  }
+
+  .AALTitleCountry{
+    font-size: 36px;
+  }
+
+  .AALTitleInfo{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 12px;
+  }
+
+  .AALTitleFlag{
+    width: 85%;
+    height: 30%;
+  }
+
+  .AALTitleScore {
+    font-size: 30px;
+  }
+
+  .AALTitleInput{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  #AALInputBox {
+    width: 55%;
+    height: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid rgb(21, 18, 18);
+  }
+
+  #AALInputButton{
+    width: 15%;
+    height: 44px;
+    background-color: white;
+    border: 2px solid rgb(21, 18, 18);
+    cursor: pointer;
+  }
+
+  .AALPhoto{
+    width: 100%;
+    height: 100%;
+    outline: 3px solid black;
+  }
+
+#AAReturnButtons{
+  width: 100%;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border: solid 2px black;
+  border-radius: 0.4rem;
+  font-size: calc(27px + 0.090625vw);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  }
